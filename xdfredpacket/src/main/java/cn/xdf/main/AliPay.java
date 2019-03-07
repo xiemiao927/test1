@@ -37,7 +37,8 @@ public class AliPay {
 		// ...
 	}
 
-	public static void main(String[] args) throws AlipayApiException {
+	public static void main(String[] args) 
+			throws AlipayApiException {
 //				userInfoShare();
 		LeftMoneyPackage leftMoneyPackage = new LeftMoneyPackage();
 		leftMoneyPackage.setMoney(0.10);
