@@ -26,7 +26,8 @@ public class AliPay {
 	 * 
 	 * @throws AlipayApiException
 	 */
-	public static void userInfoShare() throws AlipayApiException {
+	public static void userInfoShare() 
+			throws AlipayApiException {
 		// 实例化具体API对应的request类,类名称和接口名称对应,当前调用接口名称：alipay.user.userinfo.share
 		AlipayUserUserinfoShareRequest request = new AlipayUserUserinfoShareRequest();
 		// 授权类接口执行API调用时需要带上accessToken
